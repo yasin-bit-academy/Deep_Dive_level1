@@ -2,7 +2,7 @@
 	while(true){
 		$number = readline("Please enter a number \n");
 
-		if($number == ""){
+		if(is_numeric($number)){
 			echo $number . " is geen geldige cijfer \n";
 		}
 
